@@ -9,7 +9,7 @@
                          ABPeoplePickerNavigationControllerDelegate
                          >
 
-- (void)getContactsAsync:(CDVInvokedUrlCommand*)command;
+- (void)search:(CDVInvokedUrlCommand*)command;
 - (void)checkAccess:(CDVInvokedUrlCommand*)command;
 - (void)startObserveChanges:(CDVInvokedUrlCommand*)command;
 - (void)stopObserveChanges:(CDVInvokedUrlCommand*)command;
