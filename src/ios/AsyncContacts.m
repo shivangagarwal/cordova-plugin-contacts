@@ -5,7 +5,7 @@
 #import "APContact.h"
 #import "APAddressBook.h"
 
-@implementation AsyncContacts
+@implementation Contacts
 
 // overridden to clean up Contact statics
 - (void)onAppTerminate

@@ -4,7 +4,7 @@
 #import <AddressBookUI/AddressBookUI.h>
 #import <Cordova/CDVPlugin.h>
 
-@interface AsyncContacts : CDVPlugin <ABNewPersonViewControllerDelegate,
+@interface Contacts : CDVPlugin <ABNewPersonViewControllerDelegate,
                          ABPersonViewControllerDelegate,
                          ABPeoplePickerNavigationControllerDelegate
                          >
