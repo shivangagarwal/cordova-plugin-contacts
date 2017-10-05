@@ -127,8 +127,8 @@
  <!-- ios -->
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="AsyncContacts">
-                <param name="ios-package" value="AsyncContacts"/>
+            <feature name="Contacts">
+                <param name="ios-package" value="Contacts"/>
             </feature>
         </config-file>
 
