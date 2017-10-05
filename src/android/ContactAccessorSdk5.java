@@ -163,7 +163,7 @@ public class ContactAccessorSdk5 extends ContactAccessor {
                 searchTerm = "%";
             }
             else {
-                searchTerm = searchTerm + "%";
+                searchTerm = "%" + searchTerm + "%";
             }
 
             try {
