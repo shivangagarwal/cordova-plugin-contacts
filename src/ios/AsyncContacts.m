@@ -1,9 +1,6 @@
 
 #import "AsyncContacts.h"
 #import <UIKit/UIKit.h>
-#import <Cordova/NSArray+Comparisons.h>
-#import <Cordova/NSDictionary+Extensions.h>
-//#import "CDVNotification.h"
 
 #import "APContact.h"
 #import "APAddressBook.h"
