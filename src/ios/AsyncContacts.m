@@ -49,6 +49,7 @@
                     @"lastName" : ReplaceSpecialChars(contact.lastName),
                     @"phones" : contact.phones,
                     @"emails" : contact.emails,
+                    @"id": contact.id,
                 };
 
                 [returnContacts addObject:jsonContact];
