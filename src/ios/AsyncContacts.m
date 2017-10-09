@@ -53,13 +53,13 @@
 
                 [returnContacts addObject:jsonContact];
             }
-            //NSLog(@"returnContacts: %@", returnContacts);
+            NSLog(@"returnContacts: %@", returnContacts);
             NSError *writeError = nil;
             NSData *jsonData = [NSJSONSerialization dataWithJSONObject:returnContacts options:NSJSONWritingPrettyPrinted error:&writeError];
             NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
-            //NSLog(@"JSON Output: %@", jsonString);
+            NSLog(@"JSON Output: %@", jsonString);
 
-            CDVPluginResult* result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:jsonString];
+            CDVPluginResult* result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsArray:returnContacts];
             [weakSelf.commandDelegate sendPluginResult:result callbackId:callbackId];
         }
         else
