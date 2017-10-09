@@ -48,6 +48,7 @@
                     @"middleName" : ReplaceSpecialChars(contact.middleName),
                     @"lastName" : ReplaceSpecialChars(contact.lastName),
                     @"phones" : contact.phones,
+                    @"emails" : contact.emails,
                 };
 
                 [returnContacts addObject:jsonContact];
