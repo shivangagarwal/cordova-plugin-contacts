@@ -128,7 +128,7 @@
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="Contacts">
-                <param name="ios-package" value="Contacts"/>
+                <param name="ios-package" value="CDVContacts"/>
             </feature>
         </config-file>
         <preference name="CONTACTS_USAGE_DESCRIPTION" default=" " />
